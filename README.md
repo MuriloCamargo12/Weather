@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌤️ Weather
 
-## Getting Started
+Aplicação de previsão do tempo desenvolvida com foco em boas práticas de Front-end moderno, utilizando Next.js, React e consumo de API externa.
 
-First, run the development server:
+---
+
+## 🚀 Deploy
+
+🔗 **Acesse o projeto online:**  
+https://weather-psi-khaki-35.vercel.app/
+
+---
+
+## ▶️ Como rodar o projeto localmente
 
 ```bash
+# Clonar o repositório
+git clone https://github.com/MuriloCamargo12/Weather.git
+
+# Entrar na pasta do projeto
+cd weather
+
+# Acesse https://openweathermap.org/ para gerar uma KEY da API
+
+# Criar arquivo .env na raiz com:
+
+WEATHER_KEY=KeyGeradaDoOpenWeather
+
+# Instalar dependências
+npm install
+
+# Rodar o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologias utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js (App Router)
+- React (Hooks)
+- TypeScript
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ Consultar previsão de tempo  
+- ✅ Responsividade mobile  
+- ✅ Organização de componentes por feature
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 Aprendizados
 
-## Deploy on Vercel
+Durante o desenvolvimento deste projeto, pratiquei:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Estruturação de projeto com App Router (Next.js)
+- Organização modular de componentes
+- Manipulação de estado com React Hooks (useState)
+- Uso de variáveis de ambiente (.env)
+- Deploy e configuração de variáveis na Vercel
+- Consumo de API (OpenWeatherMap)
+- Tratamento de erro
+- Exibição dinâmica baseada na resposta da API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+🆘 Precisa de ajuda?
+Entre em contato comigo pelo Linkedin:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murilo-camargo-morais-9b94463b2/)
